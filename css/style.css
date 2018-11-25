@@ -2,7 +2,6 @@ body {
 	background-image: url(../img/main-background.jpg);
 	background-size: 100%;
 	background-color: #57ABBA;
-	overflow: scroll;
 	font-family: liberation;
 }
 h1 {
