@@ -1,0 +1,31 @@
+body {
+	background-image: url(../img/stormtroopers.jpg);
+	background-color: blue;
+	background-size: 100%;
+	background-position: center;
+	background-position: no-repeat;
+	font-family: liberation;
+}
+a {
+	text-decoration: none;
+}
+.main_page {
+	color: white;
+	background-color: black;
+	font-size: 50px;
+	text-align: center;
+	margin: 0 auto;
+	opacity: 0.75;
+	background-color: black;
+}
+.information p{
+	font-size: 18px;
+}
+.information {
+	color: white;
+	width: 30%;
+	margin-top: 10%;
+	margin-left: 60%;
+	background-color: black;
+	opacity: 0.75;
+}

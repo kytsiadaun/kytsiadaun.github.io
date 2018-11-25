@@ -1,0 +1,38 @@
+body {
+	background-image: url(../img/main-background.jpg);
+	background-size: 100%;
+	background-color: #57ABBA;
+	overflow: scroll;
+	font-family: liberation;
+}
+h1 {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	opacity: 0.75;
+	background-color: black;
+	background-position: 0;
+}
+.navigation{
+	opacity: 0.75;
+	display: flex;
+	margin-top: 30%;
+	width: 100%;
+}
+.link, .link1 {
+	text-decoration: none;
+	font-size: 40px;
+	color: white;
+	background-color: black;
+	width: 20%;
+	text-align: center;
+}
+.link1 {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.link {
+	margin-right: 20%;
+}
+
