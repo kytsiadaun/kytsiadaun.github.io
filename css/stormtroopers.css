@@ -29,7 +29,7 @@ a {
 	background-color: black;
 	opacity: 0.75;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1080px) {
   body {
 	background-image: url(../img/troopermob-background.jpg);
 	background-size: cover;
