@@ -29,3 +29,23 @@ a {
 	background-color: black;
 	opacity: 0.75;
 }
+@media screen and (max-width: 720px) {
+  body {
+	background-image: url(../img/troopermob-background.jpg);
+	background-size: cover;
+	background-position: top;
+	background-color: #57ABBA;
+	font-family: liberation;
+}
+.information p{
+	font-size: 14px;
+}
+.information {
+	color: white;
+	width: 80%;
+	margin-top: 30%;
+	margin-left: 10%;
+	background-color: black;
+	opacity: 0.75;
+}
+}
