@@ -1,7 +1,10 @@
 body {
 	background-image: url(../img/main-background.jpg);
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-color: #57ABBA;
+	text-decoration: none;
 	font-family: liberation;
 }
 h1 {
@@ -9,9 +12,13 @@ h1 {
 	color: white;
 	text-align: center;
 	margin: 0px;
+	padding: 0px;
 	opacity: 0.75;
 	background-color: black;
 	background-position: 0;
+}
+a {
+	text-decoration: none;
 }
 .navigation{
 	opacity: 0.75;
@@ -19,13 +26,41 @@ h1 {
 	margin-top: 30%;
 	width: 100%;
 }
-.link, .link1 {
-	text-decoration: none;
+.link p, .link1 p {
 	font-size: 40px;
 	color: white;
 	background-color: black;
-	width: 20%;
 	text-align: center;
+}
+.link1 {
+	width: 20%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.link {
+	width:20%;
+	margin-right: 20%;
+}
+
+
+@media screen and (max-width: 1080px) {
+  body {
+	background-image: url(../img/mobmain-background.png);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: #57ABBA;
+	overflow: scroll;
+	font-family: liberation;
+}
+.navigation{
+	opacity: 0.75;
+	margin-top: 30%;
+	width: 100%;
+}
+.link, .link1 {
+	font-size: 22px;
+	width: 20%;
 }
 .link1 {
 	margin-left: 20%;
@@ -34,4 +69,4 @@ h1 {
 .link {
 	margin-right: 20%;
 }
-
+}
