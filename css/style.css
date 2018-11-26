@@ -30,13 +30,6 @@ a {
 	margin-top: 15%;
 	width: 100%;
 }
-.link p, .link1 p {
-	text-decoration: none;
-	color: white;
-	background-color: black;
-	text-align: center;
-	font-size: 40px;
-}
 .link1 {
 	width: 20%;
 	margin-left: 20%;
@@ -68,14 +61,6 @@ a {
 	opacity: 0.75;
 	margin-top: 50%;
 	width: 100%;
-}
-.link p, .link1 p {
-	font-size: 30px;
-	text-decoration: none;
-	color: white;
-	background-color: black;
-	text-align: center;
-	width: 20%;
 }
 .link1 {
 	margin-left: 20%;
