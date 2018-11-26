@@ -34,6 +34,7 @@ a {
 	background-image: url(../img/mobrebel-background.jpg);
 	background-color: blue;
 	background-size: cover;
+	background-position: top;
 	background-position: no-repeat;
 	font-family: liberation;
 }
