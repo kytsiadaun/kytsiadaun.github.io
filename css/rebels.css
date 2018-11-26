@@ -29,3 +29,17 @@ a {
 	background-color: black;
 	opacity: 0.75;
 }
+@media screen and (max-width: 1080px) {
+	body {
+	background-image: url(../img/mobrebel-background.jpg);
+	background-color: blue;
+	background-size: cover;
+	background-position: no-repeat;
+	font-family: liberation;
+}
+.information {
+	width: 80%;
+	margin-top: 20%;
+	margin-left: 10%;
+}
+}
