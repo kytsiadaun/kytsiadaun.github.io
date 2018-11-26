@@ -31,21 +31,16 @@ a {
 }
 @media screen and (max-width: 1080px) {
   body {
-	background-image: url(../img/troopermob-background.jpg);
+	background-image: url(../img/mobtroop-background.jpg);
 	background-size: cover;
 	background-position: top;
+	background-position: no-repeat;
 	background-color: #57ABBA;
 	font-family: liberation;
 }
-.information p{
-	font-size: 14px;
-}
 .information {
-	color: white;
 	width: 80%;
-	margin-top: 30%;
+	margin-top: 20%;
 	margin-left: 10%;
-	background-color: black;
-	opacity: 0.75;
 }
 }
