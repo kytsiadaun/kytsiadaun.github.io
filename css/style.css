@@ -50,13 +50,16 @@ a {
 	background-position: top;
 	background-repeat: no-repeat;
 	background-color: #57ABBA;
-	overflow: scroll;
 	font-family: liberation;
 }
-
+a {
+	text-decoration: none;
+	color: white;
+	background-color: black;
+}
 .navigation{
 	opacity: 0.75;
-	margin-top: 30%;
+	margin-top: 50%;
 	width: 100%;
 }
 .link, .link1 {
