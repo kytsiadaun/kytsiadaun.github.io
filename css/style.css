@@ -58,7 +58,9 @@ a {
 	margin-top: 30%;
 	width: 100%;
 }
-.link, .link1 {
+.link p , .link1 p {
+	color: white;
+	background-color: black;
 	font-size: 22px;
 	width: 20%;
 }
