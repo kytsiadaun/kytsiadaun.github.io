@@ -17,10 +17,12 @@ h1 {
 	background-color: black;
 	background-position: 0;
 }
-a {
+a {	
+	font-size: 40px;
 	text-decoration: none;
 	color: white;
 	background-color: black;
+	text-align: center;
 }
 .navigation{
 	opacity: 0.75;
@@ -53,9 +55,11 @@ a {
 	font-family: liberation;
 }
 a {
+	font-size: 30px;
 	text-decoration: none;
 	color: white;
 	background-color: black;
+	text-align: center;
 }
 .navigation{
 	opacity: 0.75;
@@ -63,7 +67,6 @@ a {
 	width: 100%;
 }
 .link, .link1 {
-	font-size: 22px;
 	width: 20%;
 }
 .link1 {
