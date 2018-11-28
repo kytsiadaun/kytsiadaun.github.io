@@ -1,46 +1,46 @@
 body {
 	background-image: url(../img/stormtroopers.jpg);
+	margin: 0;
+	padding: 0;
 	background-color: blue;
-	background-size: 100%;
+	background-size: cover;
 	background-position: center;
 	background-position: no-repeat;
-	font-family: liberation;
 }
 a {
 	text-decoration: none;
 }
-.main_page {
+h1 {
+	margin: 0;
+	padding: 0;
 	color: white;
-	background-color: black;
+	opacity: 0.75;
 	font-size: 50px;
 	text-align: center;
-	margin: 0 auto;
-	opacity: 0.75;
 	background-color: black;
 }
-.information p{
-	font-size: 18px;
+h1:hover {
+	background-color: white;
+	color: black;
 }
 .information {
 	color: white;
 	width: 30%;
 	margin-top: 10%;
-	margin-left: 60%;
+	margin-left: 65%;
+	padding:0px 20px;
 	background-color: black;
 	opacity: 0.75;
+	border-radius: 5px;
+	font-size: 18px;
 }
 @media screen and (max-width: 1080px) {
-  body {
+	body {
 	background-image: url(../img/mobtroop-background.jpg);
-	background-size: cover;
 	background-position: top;
-	background-position: no-repeat;
-	background-color: #57ABBA;
-	font-family: liberation;
 }
 .information {
 	width: 80%;
-	margin-top: 20%;
-	margin-left: 10%;
+	margin: 20% 10%;
 }
 }
